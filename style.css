@@ -1,0 +1,125 @@
+
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #111;
+  }
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+  }
+  h2 {
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  .products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .product-title {
+    font-weight: bold;
+    margin-top: 0.8rem;
+  }
+  .price {
+    color: #333;
+    margin-top: 0.3rem;
+  }
+.nav2{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-right: 100px;
+}
+.heading{
+    text-align: center;
+    align-items: center;
+}
+.hp{
+    margin: 5px 500px;
+}
+.midweb{
+    display: flex;
+    /* background-color: rgb(187, 205, 220); */
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+     align-content:center ;
+     border-radius: 30px;
+    margin: 50px;
+    gap: 5px;
+}
+.midline{
+    padding: 10px;
+    width: 800px;
+    /* background-color: rgb(188, 117, 29); */
+    margin: 30px 30px;
+    border: 1px solid black;
+    border-radius: 30px;
+    
+}
+img{
+    border: 2px solid ;
+    border-radius: 30px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+}
+.icon-container{
+    display: flex;
+    background-color: rgb(167, 159, 151);
+    /* border: 2px solid black; */
+    border-radius: 40px;
+    /* gap: 2px; */
+    padding: 20px;
+    margin: 10px 30px;
+}
+.icon{
+    display: flex;
+    width: 350px;
+   height:  px;
+   border: 2px solid black;
+   border-radius: 30px;
+   flex-direction: column;
+   align-items: center;
+   
+   background-color: azure;
+    margin: 10px 40px;
+    padding: 40px;
+   
+}
+.icon1{
+    font-size: 60px;
+}
+.para{
+    font-size: 10px;
+}
+.lastweb{
+    display: flex;
+    background-color: rgb(187, 205, 220);
+    flex-direction: row;
+     align-content:center ;
+     border-radius: 30px;
+    margin: 90px;
+    gap: 5px;
+}
+.lastline{
+    padding: 10px;
+    width: 800px;
+    margin: 30px 30px;
+    border: 1px solid black;
+    border-radius: 30px;
+}

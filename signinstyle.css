@@ -1,0 +1,36 @@
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    form{
+        width: 40%;
+        
+        padding: 20px;
+        background: linear-gradient(blue, lightblue);
+        border-radius: 15px;
+    }
+    input{
+        border: none;
+        background-color: transparent;
+        color: black;
+        width: calc(100% - 50px);
+    }
+    input:focus{
+        border: none;
+    }
+    div{
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 5px;
+    }
+    #submit{
+        background-color: aqua;
+    }
+    #submit:hover{
+        background-color: brown;
+        color: white;
+    }

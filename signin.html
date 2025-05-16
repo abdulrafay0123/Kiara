@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    form{
+        width: 40%;
+        
+        padding: 20px;
+        background: linear-gradient(blue, lightblue);
+        border-radius: 15px;
+    }
+    input{
+        border: none;
+        background-color: transparent;
+        color: black;
+        width: calc(100% - 50px);
+    }
+    input:focus{
+        border: none;
+    }
+    div{
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 5px;
+    }
+    #submit{
+        background-color: aqua;
+    }
+    #submit:hover{
+        background-color: brown;
+        color: white;
+    }
+    </style>
+</head>
+<body>
+    <form>
+        <div>
+            <i class="fa fa-user"></i>
+            <input type="text" placeholder="enter your name">
+        </div>
+        <div>
+            <i class="fa fa-key"></i>
+            <input type="text" placeholder="enter your password">
+        </div>
+        <div>
+            <i class="fa fa-lock"></i>
+            <input type="submit" placeholder="submit">
+        </div>
+        <p>I already ahve an account? <a href="#">signup</a></p>
+    </form>
+
+</body>
+</html>
